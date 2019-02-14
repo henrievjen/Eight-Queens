@@ -1,0 +1,53 @@
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.main {
+    position: absolute;
+    top: 20px;
+    left: 5vw;
+    width: 90vw;
+    text-align: center;
+    font-size: 18px;
+}
+
+.explain {
+    position: relative;
+}
+
+.textbox {
+    position: relative;
+    margin-top: 40px;
+    width: 70vw;
+    max-width: 600px;
+    min-width: 500px;
+    height: 70px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.check-answer {
+    position: relative;
+    height: 50px;
+    margin-top: 10px;
+    border: 2px solid #4CAF50;
+    border-radius: 2%;
+    background-color: #fff;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.check-answer:hover {
+    background-color: #4CAF50;
+    color: aliceblue;
+}
+
+.check-answer:focus {
+    outline: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
